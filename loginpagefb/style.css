@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+body{
+    background-color: #f0f2f5;
+}
+.textarea{
+    height:150px;
+    width:500px;
+    position: absolute;
+    top:190px;
+    left:180px;
+}
+/*facebook font image*/
+.textarea img{
+    width:260px;
+    height:72px;
+}
+.textarea p{
+    font-size:28px;
+    font-weight:200;
+    color:#1c1e21;
+    position: absolute;
+    left:10px;
+}
+.card{
+    height:352px;
+    width:394px;
+    border:none;
+    position: absolute;
+    top:132px;
+    left:771px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0px 0px 15px #E4E6E9;
+    border-radius: 8px;
+}
+/*email entering*/
+.email input{
+    height:50px;
+    width:364px;
+    position:absolute;
+    top:14px;
+    left:14px;
+    border-radius:6px;
+    padding-left:14px;
+    font-size:16px;
+    border:1px  solid #dadde1;
+    outline:none;
+    color: black;
+}
+/*email hovering*/
+.email input:hover{
+    border-color:#1877f2;
+}
+/*password entering*/
+.password input{
+    height:50px;
+    width:364px;
+    position:absolute;
+    top:75px;
+    left:14px;
+    border-radius:6px;
+    padding-left:14px;
+    font-size:16px;
+    border:1px  solid #dadde1;
+    outline:none;
+    color: black;
+}
+/*password hovering*/
+.password input:hover{
+    border-color:#1877f2;
+}
+
+/*first button is LOG IN*/
+.button1{
+    position: absolute;
+    top:141px;
+    height:47px;
+    width:364px;
+    left:14px;
+    background-color: rgb(18, 126, 228);
+    color:white;
+    text-align: center;
+    border-radius: 6px;
+    position:relative;
+    cursor:pointer;
+    transition: 0.2s ease;
+}
+.button1:hover{
+    background-color: #166FE5;
+}
+.button1 p{
+    position:absolute;
+    top:9px;
+    left:150px;
+    font-size: 23px;
+}
+/*fpass means Forget Password*/
+.fpass{
+    border-bottom: 1px solid #dadde1;
+    height:50px;
+    position: absolute;
+    top:174px;
+    display: flex;
+    margin: 20px 16px;
+    width:360px;
+    right:5px;
+    cursor:pointer;
+}
+.fpass p{
+    color:rgb(18, 126, 228);
+    position:absolute;
+    left:125px;
+    bottom:20px;
+    font-size:15px;
+}
+.fpass p:hover{
+    text-decoration: underline;
+}
+/*button2 is about CREATE NEW ACCOUNT*/
+.button2{
+    position: absolute;
+    top:224px;
+    height:50px;
+    width:196px;
+    left:102px;
+    background-color: rgb(33, 194, 33);
+    color:white;
+    text-align: center;
+    border-radius: 6px;
+    position:relative;
+    cursor: pointer;
+    transition:0.3s ease;
+}
+.button2:hover{
+    background-color:rgb(26, 165, 26);
+}
+.button2 p{
+    position:absolute;
+    top:15px;
+    left:14px;
+    font-size:18px;
+}
+/*undercard is the last text written below the card*/
+.undercard{
+    position: absolute;
+    top:510px;
+    left:812px;
+}
+.undercard p{
+    font-size: 15.5px;
+} 
+.undercard p b{
+    cursor:pointer;
+}
+.undercard p b:hover{
+    text-decoration: underline;
+}
+
